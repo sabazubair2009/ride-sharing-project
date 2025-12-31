@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
+}
+body{
+
   background-color: white;
+}
+.hero-section{
+  background-color: rgb(250, 248, 248);
 }
 .header {
   display: flex;
@@ -69,15 +75,38 @@ margin-left: 80px;
 
 
 .download-buttons{
-  color: white;
-  background-color: black;
   display: flex;
-   justify-content: space-around;
-  align-items: center;
-  gap: 15px;
-  border: none;
+  gap: 30px;
 }
-.my-buttons{
-  color: white;
+.download-buttons button{
+  display: flex;        /* icon + text in a row */
+  align-items: center;
+  gap: 12px;
+
   background-color: black;
+  color: white;
+
+  padding: 16px 24px;
+  border: none;
+  border-radius: 6px;
+
+  font-size: 24.6px;
+  font-weight: 800;
+
+}
+.download-buttons button img {
+  width: 45px;
+  height: 39.8863639831543px;
+}
+.download-buttons{
+  margin-left: 80px;
+}
+.section-2{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.section-2 >img{
+  width: 500px;
+  height: 550px;
 }
