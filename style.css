@@ -104,9 +104,13 @@ margin-left: 80px;
   height: 39.8863639831543px;
 
 }
+span{
+  color:white;
+  background-color: black;
+}
 .button1{
-color: black;
-  background-color: white;
+color: white;
+  background-color: black;
 }
 .download-buttons{
   margin-left: 80px;
@@ -129,7 +133,7 @@ color: black;
   margin-right: 80px;
   margin-top: 100px;
   margin-bottom: 100px;
-  background-color: var(--theme-color);
+  background-color: var(-theme-color);
   height: 166px;
   border-radius: 10px;
 
