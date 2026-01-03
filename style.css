@@ -120,7 +120,7 @@ color: black;
   width: 500px;
   height: 550px;
 }
-/* .green-box{
+.green-box{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -133,4 +133,4 @@ color: black;
   height: 166px;
   border-radius: 10px;
 
-} */
+}
