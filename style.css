@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
+  --theme-color:#75bf7a;
+  --light-text-color: #9E9DA2;
+   background-color: rgb(250, 248, 248);
 }
 body{
 
   background-color: white;
 }
 .hero-section{
+  display: flex;
   background-color: rgb(250, 248, 248);
 }
 .header {
@@ -44,7 +48,8 @@ a {
 }
 .hero-section{
   display: flex;
-  /* height: 70vh; */
+/* flex-wrap: wrap; */
+
   
 } 
 
@@ -79,7 +84,7 @@ margin-left: 80px;
   gap: 30px;
 }
 .download-buttons button{
-  display: flex;        /* icon + text in a row */
+  display: flex;       
   align-items: center;
   gap: 12px;
 
@@ -97,6 +102,11 @@ margin-left: 80px;
 .download-buttons button img {
   width: 45px;
   height: 39.8863639831543px;
+
+}
+.button1{
+color: black;
+  background-color: white;
 }
 .download-buttons{
   margin-left: 80px;
@@ -110,3 +120,17 @@ margin-left: 80px;
   width: 500px;
   height: 550px;
 }
+/* .green-box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+ margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: var(--theme-color);
+  height: 166px;
+  border-radius: 10px;
+
+} */
